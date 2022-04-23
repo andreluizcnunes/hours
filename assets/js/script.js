@@ -6,15 +6,15 @@ function carregar(){
 
   if (hora >= 0 && hora < 12) {
     msg.innerHTML = `Bom dia! Agora são ${hora} horas`;
-    img.src = '../img/morning.png';
+    img.src = 'assets/img/morning.png';
     document.body.style.background = '#e2cd9f';
   } else if (hora >= 12 && hora < 18) {
     msg.innerHTML = `Boa Tarde! Agora são ${hora} horas`;
-    img.src = '../img/evening.png';
+    img.src = 'assets/img/evening.png';
     document.body.style.background = '#b9846f'
   } else {
     msg.innerHTML = `Boa Noite! Agora são ${hora} horas`;
-    img.src = '../img/night.png';
+    img.src = 'assets/img/night.png';
     document.body.style.background = '#515154';
   }
 }
